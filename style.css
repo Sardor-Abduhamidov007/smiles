@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #091253;
+}
+
+.title {
+    font-size: 60px;
+    color: #B3F7F9;
+    text-align: center;
+}
+
+.smile {
+    width: 350px;
+    height: 350px;
+    background-color: #FFCD00;
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smile .face {
+    display: grid;
+    gap: 40px;
+}
+
+.smile .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smile .eye {
+    width: 95px;
+    height: 95px;
+    background-color: #fff;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.smile:nth-child(2) .eye {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.smile:last-child .eye {
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.smile .eye-brunette {
+    width: 45px;
+    height: 45px;
+    background-color: #000;
+    margin: 12px;
+}
+
+.mouth {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.smile .inside {
+    width: 175px;
+    height: 85px;
+    background-color: #B57700;
+    border-bottom-left-radius: 85px;
+    border-bottom-right-radius: 85px;
+}
+
+
+
